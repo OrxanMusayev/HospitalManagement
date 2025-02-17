@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eNjNTntl4UU=",
+  "dgSpecHash": "QNgZhiwQC+w=",
   "success": true,
-  "projectFilePath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Infrastructure/PatientManagement.Infrastructure.csproj",
+  "projectFilePath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Infrastructure/PatientManagement.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

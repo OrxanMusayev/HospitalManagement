@@ -114,11 +114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj",
+      "projectUniqueName": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj",
       "projectName": "PatientManagement.Web",
-      "projectPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj",
+      "projectPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj",
       "packagesPath": "/Users/orxanmusayev/.nuget/packages/",
-      "outputPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Web/obj/",
+      "outputPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Web/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/orxanmusayev/.nuget/NuGet/NuGet.Config"
@@ -133,8 +133,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj": {
-              "projectPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj"
+            "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj": {
+              "projectPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj"
             }
           }
         }

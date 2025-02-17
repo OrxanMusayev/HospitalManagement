@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj",
+      "projectUniqueName": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj",
       "projectName": "PatientManagement.Application",
-      "projectPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj",
+      "projectPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj",
       "packagesPath": "/Users/orxanmusayev/.nuget/packages/",
-      "outputPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Application/obj/",
+      "outputPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Application/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/orxanmusayev/.nuget/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj": {
-              "projectPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj"
+            "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj": {
+              "projectPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj"
             }
           }
         }

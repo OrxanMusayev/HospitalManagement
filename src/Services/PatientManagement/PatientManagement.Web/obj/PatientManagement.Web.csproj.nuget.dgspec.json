@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj": {}
+    "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj": {}
   },
   "projects": {
-    "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj": {
+    "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj",
+        "projectUniqueName": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj",
         "projectName": "PatientManagement.Application",
-        "projectPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj",
+        "projectPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj",
         "packagesPath": "/Users/orxanmusayev/.nuget/packages/",
-        "outputPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Application/obj/",
+        "outputPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/orxanmusayev/.nuget/NuGet/NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj": {
-                "projectPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj"
+              "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj": {
+                "projectPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj"
               }
             }
           }
@@ -67,14 +67,14 @@
         }
       }
     },
-    "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj": {
+    "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj",
+        "projectUniqueName": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj",
         "projectName": "PatientManagement.Domain",
-        "projectPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj",
+        "projectPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Domain/PatientManagement.Domain.csproj",
         "packagesPath": "/Users/orxanmusayev/.nuget/packages/",
-        "outputPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Domain/obj/",
+        "outputPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/orxanmusayev/.nuget/NuGet/NuGet.Config"
@@ -126,14 +126,14 @@
         }
       }
     },
-    "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj": {
+    "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj",
+        "projectUniqueName": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj",
         "projectName": "PatientManagement.Web",
-        "projectPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj",
+        "projectPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj",
         "packagesPath": "/Users/orxanmusayev/.nuget/packages/",
-        "outputPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Web/obj/",
+        "outputPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Web/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/orxanmusayev/.nuget/NuGet/NuGet.Config"
@@ -148,8 +148,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj": {
-                "projectPath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj"
+              "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj": {
+                "projectPath": "/Users/orxanmusayev/Projects/MyProjects/HospitalManagement/src/Services/PatientManagement/PatientManagement.Application/PatientManagement.Application.csproj"
               }
             }
           }
