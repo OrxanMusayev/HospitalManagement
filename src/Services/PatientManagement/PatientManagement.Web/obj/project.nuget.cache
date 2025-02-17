@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rjlqypE6hsM=",
+  "success": true,
+  "projectFilePath": "/Users/orxanmusayev/Projects/MyProjects/src/Services/PatientManagement/PatientManagement.Web/PatientManagement.Web.csproj",
+  "expectedPackageFiles": [
+    "/Users/orxanmusayev/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/orxanmusayev/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
