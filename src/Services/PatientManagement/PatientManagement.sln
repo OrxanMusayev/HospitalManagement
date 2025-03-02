@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Domain", "PatientManagement.Domain\PatientManagement.Domain.csproj", "{A1BFDEC0-3CC9-4CB0-8C92-30DB557E89EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Domain", "src\PatientManagement.Domain\PatientManagement.Domain.csproj", "{A1BFDEC0-3CC9-4CB0-8C92-30DB557E89EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Application", "PatientManagement.Application\PatientManagement.Application.csproj", "{4DBAFB88-82DE-4218-A1FC-F0541CFCF534}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Application", "src\PatientManagement.Application\PatientManagement.Application.csproj", "{4DBAFB88-82DE-4218-A1FC-F0541CFCF534}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Infrastructure", "PatientManagement.Infrastructure\PatientManagement.Infrastructure.csproj", "{DE07515E-CC7C-458E-A0EF-F04C45A7281D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Infrastructure", "src\PatientManagement.Infrastructure\PatientManagement.Infrastructure.csproj", "{DE07515E-CC7C-458E-A0EF-F04C45A7281D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Web", "PatientManagement.Web\PatientManagement.Web.csproj", "{C70C28AF-EC70-4731-B366-3F9A74437CA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Web", "src\PatientManagement.Web\PatientManagement.Web.csproj", "{C70C28AF-EC70-4731-B366-3F9A74437CA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
