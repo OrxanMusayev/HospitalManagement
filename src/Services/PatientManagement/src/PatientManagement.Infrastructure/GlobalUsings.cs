@@ -1,0 +1,12 @@
+global using System;
+global using Microsoft.EntityFrameworkCore;
+global using PatientManagement.Domain.Entities;
+global using Microsoft.AspNetCore.Builder;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;
+global using PatientManagement.Domain.Enums;
+global using PatientManagement.Domain.ValueObjects;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.AspNetCore.Http;
+global using Microsoft.EntityFrameworkCore.Diagnostics;
+global using PatientManagement.Domain.Common;
