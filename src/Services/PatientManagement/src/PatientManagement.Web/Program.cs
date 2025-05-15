@@ -1,6 +1,8 @@
+using Microsoft.EntityFrameworkCore;
 using PatientManagement.Application;
 using PatientManagement.Domain;
 using PatientManagement.Infrastructure;
+using PatientManagement.Infrastructure.Data;
 using PatientManagement.Infrastructure.Data.Migrations;
 using PatientManagement.Web;
 
@@ -14,18 +16,33 @@ builder.AddDomainServices();
 builder.AddApplicationServices();
 builder.AddInfrastructureServices();
 builder.AddWebServices();
-
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new()
+    {
+        Title = "Patient Management API",
+        Version = "v1",
+        Description = "This is a Patient Management API"
+    });
+});
+builder.Services.AddControllers();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-   await app.InitialiseDatabaseAsync();
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Patient API V1");
+    });
+
+    await app.InitialiseDatabaseAsync();
 }
 
 app.UseHttpsRedirection();
-
+app.MapControllers();
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"

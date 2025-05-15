@@ -2,15 +2,10 @@ using PatientManagement.Application.Interfaces;
 
 namespace PatientManagement.Infrastructure.Data;
 
-public class AuditableEntityInterceptor: SaveChangesInterceptor
+public class AuditableEntityInterceptor(IUser user) : SaveChangesInterceptor
 {
     IUser _currentUser;
-    private string? currentUserId;
-
-    public AuditableEntityInterceptor(IUser user)
-    {
-        currentUserId = user.Id;
-    }
+    private string? currentUserId = user.Id;
 
     public override InterceptionResult<int> SavingChanges(DbContextEventData eventData, InterceptionResult<int> result)
     {

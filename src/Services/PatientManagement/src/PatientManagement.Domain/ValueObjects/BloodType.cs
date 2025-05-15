@@ -1,5 +1,6 @@
 namespace PatientManagement.Domain.ValueObjects;
 
+[Owned]
 public class BloodType: ValueObject
 {
     
