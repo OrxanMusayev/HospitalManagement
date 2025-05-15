@@ -1,5 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace PatientManagement.Domain.ValueObjects;
 
+[Owned]
 public class Address: ValueObject
 {
     public string City { get; set; }

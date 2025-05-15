@@ -8,15 +8,12 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
     </ItemGroup>
 
     <ItemGroup>
         <ProjectReference Include="..\PatientManagement.Application\PatientManagement.Application.csproj"/>
         <ProjectReference Include="..\PatientManagement.Infrastructure\PatientManagement.Infrastructure.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <Folder Include="Helpers\"/>
     </ItemGroup>
 
 </Project>
