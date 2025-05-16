@@ -1,4 +1,4 @@
-namespace PatientManagement.Domain.Events;
+namespace AppointmentService.Domain.Events;
 
 public class AppointmentCancelledEvent : BaseEvent
 {

@@ -1,6 +1,1 @@
-namespace AppointmentService.Domain;
-
-public class GlobalUsings
-{
-    
-}
+global using AppointmentService.Domain.Common;
